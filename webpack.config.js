@@ -40,6 +40,7 @@ module.exports = {
             directory: "./dist",
         },
         hot: true, // 핫 리로딩을 활성화
+        historyApiFallback: true, // 모든 경로를 index.html로 리디렉션
     },
 
     // 플러그인 설정
